@@ -1,0 +1,49 @@
+/** @format */
+@font-face {
+  font-family: GeneralSans-Medium;
+  src: url(../font/GeneralSans-Medium.otf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  width: 100%;
+  height: 100vh;
+}
+#navigationBar {
+  background-color: #00224d;
+  height: 4vw;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+  font-family: GeneralSans-Medium;
+}
+#navigationBar #nav {
+  padding: 1vw 1vw;
+  margin-right: 50px;
+}
+#navigationBar #logo {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  left: 8vw;
+  top: 1vw;
+  font-size: 1.7vw;
+}
+#navigationBar #nav a {
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  font-size: 1.6vw;
+}

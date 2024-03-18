@@ -1,8 +1,11 @@
 /** @format */
+/* Font Section */
 @font-face {
   font-family: GeneralSans-Medium;
-  src: url(../font/GeneralSans-Medium.otf);
+  src: url(font/GeneralSans-Medium.otf);
 }
+/* Font Section END */
+
 * {
   padding: 0;
   margin: 0;
@@ -13,6 +16,7 @@ body {
   width: 100%;
   height: 100%;
 }
+/* Main section in which whole page is design. */
 #main {
   width: 100%;
   height: 100vh;
@@ -46,4 +50,13 @@ body {
   text-decoration: none;
   padding: 12px;
   font-size: 1.6vw;
+  transition: 0.3s;
+}
+#navigationBar #nav a:hover {
+  color: #0ef;
+}
+#Home {
+  width: 100%;
+  height: 200px;
+  background-color: red;
 }

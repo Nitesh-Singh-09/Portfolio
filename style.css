@@ -10,6 +10,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: GeneralSans-Medium;
 }
 html,
 body {
@@ -31,7 +32,6 @@ body {
   display: flex;
   justify-content: space-between;
   z-index: 100;
-  font-family: GeneralSans-Medium;
 }
 #navigationBar #nav {
   padding: 1vw 1vw;
@@ -56,7 +56,28 @@ body {
   color: #0ef;
 }
 #Home {
+  height: 100vh;
   width: 100%;
-  height: 200px;
-  background-color: red;
+  background-color: #022656f3;
+  position: absolute;
+}
+#homeContent {
+  color: white;
+  margin-top: 120px;
+  margin-left: 70px;
+}
+#homeContent #para {
+  margin-top: 20px;
+  width: 350px;
+  text-align: justify;
+  opacity: 0.8;
+}
+#homeContent h2 {
+  word-spacing: 3px;
+  padding: 10px;
+  line-height: 0.5;
+}
+#homeContent #heading {
+  font-size: 18px;
+  font-weight: 300;
 }

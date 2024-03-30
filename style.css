@@ -20,10 +20,10 @@ body {
 /* Main section in which whole page is design. */
 #main {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
 }
 #navigationBar {
-  background-color: #00224d;
+  background-color: #a5dd9b;
   height: 4vw;
   width: 100%;
   position: fixed;
@@ -58,26 +58,197 @@ body {
 #Home {
   height: 100vh;
   width: 100%;
-  background-color: #022656f3;
+  background-color: #31363f;
   position: absolute;
 }
 #homeContent {
+  position: relative;
+  top: 30%;
   color: white;
-  margin-top: 120px;
   margin-left: 70px;
+  margin-top: 50px;
 }
 #homeContent #para {
   margin-top: 20px;
-  width: 350px;
+  width: 35vw;
   text-align: justify;
   opacity: 0.8;
 }
 #homeContent h2 {
-  word-spacing: 3px;
-  padding: 10px;
+  letter-spacing: 2px;
+  padding: 1vw;
   line-height: 0.5;
 }
 #homeContent #heading {
-  font-size: 18px;
+  font-size: 1.8vw;
   font-weight: 300;
+}
+#icons {
+  /* border: 1px solid red; */
+  position: relative;
+  bottom: 8vw;
+}
+#icons .icon {
+  margin: 6px;
+  border-radius: 50%;
+  /* background-color: black; */
+  color: #0ef;
+  padding: 4px;
+  border: 2px solid aqua;
+  position: relative;
+  top: 43%;
+  left: 70px;
+}
+#aboutme {
+  position: relative;
+  display: inline-block;
+  /* border: 1px solid red; */
+  bottom: 6vw;
+}
+#aboutme a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-color: #0ef;
+  border-radius: 1.8vw;
+  width: 10vw;
+  text-align: center;
+  margin-left: 70px;
+  padding: 5px;
+}
+#imageHome {
+  position: relative;
+  margin-left: 42vw;
+  bottom: 15%;
+  /* border: 1px solid red; */
+  width: 35vw;
+}
+.img {
+  /* border: 1px solid red; */
+  width: 50vw;
+  height: 50vh;
+}
+.skill {
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 25px;
+}
+#skills {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* border: 2px solid red; */
+  margin: 20px 0;
+}
+#HTML {
+  width: 30vw;
+  height: 40vh;
+  background-color: #efbc9b;
+  margin: 10px;
+  /* border: 2px solid red; */
+  border-radius: 15px;
+}
+.uniImg {
+  width: 70px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#CSS {
+  margin: 10px;
+  width: 30vw;
+  height: 40vh;
+  background-color: rgb(0, 255, 68);
+  border-radius: 15px;
+}
+
+#JS {
+  margin: 10px;
+  width: 30vw;
+  height: 40vh;
+  background-color: crimson;
+  border-radius: 15px;
+}
+#PYTHON {
+  margin: 10px;
+  width: 30vw;
+  height: 40vh;
+  background-color: aqua;
+  border-radius: 15px;
+}
+#JAVA {
+  margin: 10px;
+  width: 30vw;
+  height: 40vh;
+  background-color: blue;
+  border-radius: 15px;
+}
+#OOPS {
+  margin: 10px;
+  width: 30vw;
+  height: 40vh;
+  background-color: rgb(0, 255, 55);
+  border-radius: 15px;
+}
+#NETWORKING {
+  margin: 10px;
+  width: 30vw;
+  height: 40vh;
+  background-color: yellow;
+  border-radius: 15px;
+}
+#FUNDAMENTAL {
+  margin: 10px;
+  width: 30vw;
+  height: 40vh;
+  background-color: rgb(0, 200, 255);
+  border-radius: 15px;
+}
+#OS {
+  margin: 10px;
+  width: 30vw;
+  height: 40vh;
+  background-color: rgb(255, 0, 43);
+  border-radius: 15px;
+}
+#aboutContent {
+  margin-top: 5vw;
+  display: flex;
+}
+.img1 {
+  width: 70vw;
+  height: 50vh;
+}
+#aboutContent #contenet {
+  /* border: 1px solid red; */
+  display: inline-block;
+  margin-left: 1vw;
+}
+#contenet h2 h3 #para {
+  display: inline-block;
+  margin-top: 3vw;
+}
+#contenet #para {
+  text-align: justify;
+  margin-top: 2vw;
+  margin-right: 2vw;
+}
+#contenet h3 {
+  margin-top: 1vw;
+}
+#aboutMore {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-color: #0ef;
+  border-radius: 1.8vw;
+  width: 140px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 5px;
+}
+#aboutMore a {
+  text-decoration: none;
 }

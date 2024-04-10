@@ -20,10 +20,9 @@ body {
 /* Main section in which whole page is design. */
 #main {
   width: 100%;
-  /* height: 100vh; */
 }
 #navigationBar {
-  background-color: #a5dd9b;
+  background-color: #41c9e2;
   height: 4vw;
   width: 100%;
   position: fixed;
@@ -39,7 +38,7 @@ body {
 }
 #navigationBar #logo {
   position: relative;
-  color: white;
+  color: #ff204e;
   text-decoration: none;
   left: 8vw;
   top: 1vw;
@@ -53,12 +52,12 @@ body {
   transition: 0.3s;
 }
 #navigationBar #nav a:hover {
-  color: #0ef;
+  color: black;
 }
 #Home {
   height: 100vh;
   width: 100%;
-  background-color: #31363f;
+  background-color: #00224d;
   position: absolute;
 }
 #homeContent {
@@ -103,7 +102,7 @@ body {
   position: relative;
   display: inline-block;
   /* border: 1px solid red; */
-  bottom: 6vw;
+  bottom: 12vw;
 }
 #aboutme a {
   display: inline-block;
@@ -130,11 +129,11 @@ body {
   height: 50vh;
 }
 .skill {
-  margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 28%;
   font-size: 25px;
+  font-weight: 900;
 }
-#skills {
+#Technical_Skill {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -142,24 +141,40 @@ body {
   /* border: 2px solid red; */
   margin: 20px 0;
 }
-#HTML {
-  width: 30vw;
-  height: 40vh;
-  background-color: #efbc9b;
-  margin: 10px;
-  /* border: 2px solid red; */
-  border-radius: 15px;
+.skill {
+  margin-top: 70px;
+  display: inline-block;
 }
 .uniImg {
   width: 70px;
   margin-left: 20px;
   margin-top: 10px;
 }
+.para-skill {
+  margin-left: 25px;
+  text-align: justify;
+  width: 25vw;
+}
+.skill-type {
+  display: inline-block;
+  padding: 17px;
+  position: relative;
+  bottom: 16px;
+  left: 27px;
+}
+#HTML {
+  width: 30vw;
+  height: 40vh;
+  background-color: #efbc9b;
+  margin: 10px;
+  border-radius: 15px;
+}
+
 #CSS {
   margin: 10px;
   width: 30vw;
   height: 40vh;
-  background-color: rgb(0, 255, 68);
+  background-color: #e59be9;
   border-radius: 15px;
 }
 
@@ -174,29 +189,30 @@ body {
   margin: 10px;
   width: 30vw;
   height: 40vh;
-  background-color: aqua;
+  background-color: #cbf1f5;
   border-radius: 15px;
 }
 #JAVA {
   margin: 10px;
   width: 30vw;
   height: 40vh;
-  background-color: blue;
+  background-color: #aa96da;
   border-radius: 15px;
 }
 #OOPS {
   margin: 10px;
   width: 30vw;
   height: 40vh;
-  background-color: rgb(0, 255, 55);
+  background-color: #bed7dc;
   border-radius: 15px;
 }
 #NETWORKING {
   margin: 10px;
   width: 30vw;
   height: 40vh;
-  background-color: yellow;
+  background-color: #fec7b4;
   border-radius: 15px;
+  /* position: relative; */
 }
 #FUNDAMENTAL {
   margin: 10px;
@@ -219,6 +235,14 @@ body {
 .img1 {
   width: 70vw;
   height: 50vh;
+}
+#Prof_Skill #creativity {
+  border: 5px solid aqua;
+  border-left: 5px solid black;
+  width: 8vw;
+  height: 8vw;
+  border-radius: 50%;
+  text-align: center;
 }
 #aboutContent #contenet {
   /* border: 1px solid red; */
@@ -251,4 +275,34 @@ body {
 }
 #aboutMore a {
   text-decoration: none;
+}
+
+input {
+  border: 1px solid red;
+  border-radius: 15px;
+  position: relative;
+  left: 30px;
+  width: 70%;
+  margin: 5px;
+  height: 5vh;
+  text-align: center;
+}
+textarea {
+  position: relative;
+  left: 4vw;
+}
+.submit {
+  width: 8vw;
+  border: 3px solid white;
+  border-radius: 12px;
+  font-size: 20px;
+
+  position: relative;
+  left: 8vw;
+  transition: 2s;
+}
+.submit:hover {
+  background-color: #fc819e;
+  border: 3px solid crimson;
+  cursor: pointer;
 }
